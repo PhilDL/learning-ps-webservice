@@ -1,0 +1,19 @@
+{
+    "name": "phildl/learning-ps-webservice",
+    "description": "Example adding category product stock product image to Prestashop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philippe LATTENTION",
+            "email": "philippe.lattention@gmail.com"
+        }
+    ],
+    "require": {
+        "Prestashop/Prestashop-webservice-lib": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "vendor/prestaShop/prestaShop-webservice-lib/PSWebServiceLibrary.php"
+        ]
+    }
+}
